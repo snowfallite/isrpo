@@ -1,0 +1,1 @@
+add_library(sample_lib sample_module.cpp sample_module.h)

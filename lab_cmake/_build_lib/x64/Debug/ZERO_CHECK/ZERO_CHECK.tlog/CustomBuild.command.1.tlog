@@ -1,0 +1,10 @@
+^C:\USERS\SUNNY\DESKTOP\ISRPO\LAB_CMAKE\_BUILD_LIB\CMAKEFILES\2159DA603D7A1E800D8CB9ADF955BFBC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sunny/Desktop/isrpo/lab_cmake -BC:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/cmake_install.cmake",
+		"C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/lib/sample_lib/cmake_install.cmake",
+		"C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/lib/sample_program/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
