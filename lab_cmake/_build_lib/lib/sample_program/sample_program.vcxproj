@@ -63,25 +63,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\lib\sample_program\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sample_program.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sample_program</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\lib\sample_program\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sample_program.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sample_program</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\lib\sample_program\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sample_program.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sample_program</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\lib\sample_program\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sample_program.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sample_program</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -131,9 +131,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/lib/sample_program/Debug/sample_program.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/bin/Debug/sample_program.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/lib/sample_program/Debug/sample_program.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/bin/Debug/sample_program.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -185,9 +185,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/lib/sample_program/Release/sample_program.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/bin/Release/sample_program.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/lib/sample_program/Release/sample_program.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/bin/Release/sample_program.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -239,9 +239,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/lib/sample_program/MinSizeRel/sample_program.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/bin/MinSizeRel/sample_program.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/lib/sample_program/MinSizeRel/sample_program.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/bin/MinSizeRel/sample_program.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -292,9 +292,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/lib/sample_program/RelWithDebInfo/sample_program.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/bin/RelWithDebInfo/sample_program.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/lib/sample_program/RelWithDebInfo/sample_program.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/bin/RelWithDebInfo/sample_program.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>

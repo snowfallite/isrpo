@@ -178,6 +178,412 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\hal\ipp\ipphal.vcxproj">
+      <Project>{731CAC44-4BD9-32F9-A479-B904BAA84250}</Project>
+      <Name>ipphal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\3rdparty\libjpeg-turbo\jpeg12-static.vcxproj">
+      <Project>{39E76BA3-7496-3CFC-9646-F8D7A94EA02E}</Project>
+      <Name>jpeg12-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\3rdparty\libjpeg-turbo\jpeg16-static.vcxproj">
+      <Project>{21CBE82B-9E56-3369-B5BA-E75E124D6D89}</Project>
+      <Name>jpeg16-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{F85BABFC-48E5-3B2E-8254-E633BCF2D411}</Project>
+      <Name>libjpeg-turbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\3rdparty\openjpeg\openjp2\libopenjp2.vcxproj">
+      <Project>{761494F6-8BF9-3413-8CF8-DBFDB7BB5D9E}</Project>
+      <Name>libopenjp2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\apps\annotation\opencv_annotation.vcxproj">
+      <Project>{63142FB6-0793-3B8C-9F14-5F593961D46C}</Project>
+      <Name>opencv_annotation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\calib3d\opencv_calib3d.vcxproj">
+      <Project>{D0176286-3E1C-373E-ADC0-B03E211CEEB3}</Project>
+      <Name>opencv_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\calib3d\opencv_calib3d_AVX2.vcxproj">
+      <Project>{6F4447B9-C98D-3909-8E34-5B65F7255969}</Project>
+      <Name>opencv_calib3d_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_core.vcxproj">
+      <Project>{201D3FDC-52B4-3CF9-B8BC-F3B4D47FB522}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_core_AVX.vcxproj">
+      <Project>{FFA38ABD-5AAD-3026-90FF-65315FBCE418}</Project>
+      <Name>opencv_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_core_AVX2.vcxproj">
+      <Project>{74A53872-A781-3C64-ABE4-3F7C3BFFA45A}</Project>
+      <Name>opencv_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_core_AVX512_SKX.vcxproj">
+      <Project>{E3DFA187-4AF2-3ACB-8AC9-443DD029508E}</Project>
+      <Name>opencv_core_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_core_SSE4_1.vcxproj">
+      <Project>{C82B2D73-A811-3389-9DB7-F80DE5E31D2A}</Project>
+      <Name>opencv_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_core_SSE4_2.vcxproj">
+      <Project>{8587C775-44DA-3A21-8083-B06A2B85C07E}</Project>
+      <Name>opencv_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\dnn\opencv_dnn.vcxproj">
+      <Project>{1FFF0EF0-3BBF-36DE-AC97-44263B392C6E}</Project>
+      <Name>opencv_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\dnn\opencv_dnn_AVX.vcxproj">
+      <Project>{4414ED92-9C66-3C68-BE39-7144B9AC0B7A}</Project>
+      <Name>opencv_dnn_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\dnn\opencv_dnn_AVX2.vcxproj">
+      <Project>{EDF1519B-7F08-305A-A723-4B9D51E3BBC5}</Project>
+      <Name>opencv_dnn_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\dnn\opencv_dnn_AVX512_SKX.vcxproj">
+      <Project>{70E3E168-4511-3DFD-838A-5BA62CF9C15E}</Project>
+      <Name>opencv_dnn_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\opencv_dnn_plugins.vcxproj">
+      <Project>{CE6CAAF1-C3C8-31BF-BCF6-26081CDC8CFD}</Project>
+      <Name>opencv_dnn_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{A000C112-8F42-3F49-B50E-B5225AC4501B}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\features2d\opencv_features2d_AVX2.vcxproj">
+      <Project>{EB20FF72-FF75-3AFC-B0A6-030C9AF7F2CF}</Project>
+      <Name>opencv_features2d_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\features2d\opencv_features2d_AVX512_SKX.vcxproj">
+      <Project>{8A1BDB2C-F665-3958-9519-80388F17F955}</Project>
+      <Name>opencv_features2d_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\features2d\opencv_features2d_SSE4_1.vcxproj">
+      <Project>{27078D29-B084-3E4E-A6BC-78E4E6490DD3}</Project>
+      <Name>opencv_features2d_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\flann\opencv_flann.vcxproj">
+      <Project>{98E49D34-8FA7-3FA6-B3F1-0BBBA9D9A0B5}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\gapi\opencv_gapi.vcxproj">
+      <Project>{B11906ED-4A09-3EBD-B280-F06B62132C48}</Project>
+      <Name>opencv_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\gapi\opencv_gapi_AVX2.vcxproj">
+      <Project>{BE7FDA33-B884-3E21-8AD9-244BDEF7C41C}</Project>
+      <Name>opencv_gapi_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\gapi\opencv_gapi_SSE4_1.vcxproj">
+      <Project>{358787ED-0523-3A9B-8210-B6C2142A03AF}</Project>
+      <Name>opencv_gapi_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{00C0673E-89CF-3A2E-B937-74DD8F6DC402}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\opencv_highgui_plugins.vcxproj">
+      <Project>{DB9DB251-4EF0-3DEE-BFA9-081E4B5C05D0}</Project>
+      <Name>opencv_highgui_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{957B6FD1-5FD5-3EFB-9C36-5662A01FA2E5}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{C64B1ADC-88FD-3497-83A8-14EB1D427780}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\imgproc\opencv_imgproc_AVX.vcxproj">
+      <Project>{05C0E4BA-4443-338F-85BF-656A0B45C7A1}</Project>
+      <Name>opencv_imgproc_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\imgproc\opencv_imgproc_AVX2.vcxproj">
+      <Project>{4A0A7148-13E9-3558-8FEB-1DB30DA79F13}</Project>
+      <Name>opencv_imgproc_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\imgproc\opencv_imgproc_AVX512_SKX.vcxproj">
+      <Project>{6B14CD74-83BD-35B4-9DA5-B5D9443F8D7C}</Project>
+      <Name>opencv_imgproc_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\imgproc\opencv_imgproc_SSE4_1.vcxproj">
+      <Project>{B4BFED35-1FE5-3793-A2B3-AFDA1A24EF8C}</Project>
+      <Name>opencv_imgproc_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\apps\interactive-calibration\opencv_interactive-calibration.vcxproj">
+      <Project>{B94BF1FD-8EDA-335B-96FD-7861C1BA88CA}</Project>
+      <Name>opencv_interactive-calibration</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\java\jni\opencv_java.vcxproj">
+      <Project>{D9320F43-D5BB-30AF-AAE3-474E023C653D}</Project>
+      <Name>opencv_java</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\java\jar\opencv_java_jar.vcxproj">
+      <Project>{13C6E9CC-2E8C-314A-A2B2-AC45490B5AA9}</Project>
+      <Name>opencv_java_jar</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\ml\opencv_ml.vcxproj">
+      <Project>{64E6F182-DF8D-3079-B52C-364B13D46FA9}</Project>
+      <Name>opencv_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\apps\model-diagnostics\opencv_model_diagnostics.vcxproj">
+      <Project>{AD15D000-9F87-3476-B42B-E0B0AC862B13}</Project>
+      <Name>opencv_model_diagnostics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\objdetect\opencv_objdetect.vcxproj">
+      <Project>{6DEAF335-5EFB-3015-925F-A40EDB9A1309}</Project>
+      <Name>opencv_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\calib3d\opencv_perf_calib3d.vcxproj">
+      <Project>{38CF379A-C0A3-3286-8A14-550871262875}</Project>
+      <Name>opencv_perf_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_perf_core.vcxproj">
+      <Project>{BA886BFE-CE49-3FF4-8DDF-FDB8CEE778EA}</Project>
+      <Name>opencv_perf_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\dnn\opencv_perf_dnn.vcxproj">
+      <Project>{7EC3DC16-C546-36D0-804A-95C31B244C42}</Project>
+      <Name>opencv_perf_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\features2d\opencv_perf_features2d.vcxproj">
+      <Project>{3B55FEB2-6490-3063-BA70-5CC6E4A16163}</Project>
+      <Name>opencv_perf_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\gapi\opencv_perf_gapi.vcxproj">
+      <Project>{BC91935F-F0DD-38B7-A802-279B0A754827}</Project>
+      <Name>opencv_perf_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\imgcodecs\opencv_perf_imgcodecs.vcxproj">
+      <Project>{6FF958AA-ED33-31F9-B60E-3569392370F3}</Project>
+      <Name>opencv_perf_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\imgproc\opencv_perf_imgproc.vcxproj">
+      <Project>{9250689A-AAD4-3472-AF3D-E7930D137A83}</Project>
+      <Name>opencv_perf_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\objdetect\opencv_perf_objdetect.vcxproj">
+      <Project>{F47FAC1A-BFFB-35E3-B158-D0407B5F1CF0}</Project>
+      <Name>opencv_perf_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\photo\opencv_perf_photo.vcxproj">
+      <Project>{486FD139-063E-3D13-8572-BE023A237428}</Project>
+      <Name>opencv_perf_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\stitching\opencv_perf_stitching.vcxproj">
+      <Project>{A7A6056D-9D18-301F-B2F3-0BE3858A9BEF}</Project>
+      <Name>opencv_perf_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\video\opencv_perf_video.vcxproj">
+      <Project>{909C651A-00EF-3111-9E48-1679F0C2D107}</Project>
+      <Name>opencv_perf_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\videoio\opencv_perf_videoio.vcxproj">
+      <Project>{C9CD503A-0CF6-3C9F-8600-C9B1CA5C0461}</Project>
+      <Name>opencv_perf_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\photo\opencv_photo.vcxproj">
+      <Project>{33B47C0B-C842-3CAF-A392-4379DCA31BF3}</Project>
+      <Name>opencv_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\stitching\opencv_stitching.vcxproj">
+      <Project>{FC951FE8-BABB-3E97-A037-DC7E62E0F5BF}</Project>
+      <Name>opencv_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\calib3d\opencv_test_calib3d.vcxproj">
+      <Project>{4A63AEF1-9447-35BF-A33E-6C6CD2941158}</Project>
+      <Name>opencv_test_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_test_core.vcxproj">
+      <Project>{B4201437-17F5-3F43-927E-DDC560BD95FA}</Project>
+      <Name>opencv_test_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_test_core_AVX.vcxproj">
+      <Project>{DC726FC8-B9AB-3675-B007-2E9812EBC0B5}</Project>
+      <Name>opencv_test_core_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_test_core_AVX2.vcxproj">
+      <Project>{E439E515-D71F-329C-954B-C044C289B11F}</Project>
+      <Name>opencv_test_core_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_test_core_AVX512_SKX.vcxproj">
+      <Project>{A532E498-E8A8-3711-85C9-7A05980F8FD6}</Project>
+      <Name>opencv_test_core_AVX512_SKX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_test_core_FP16.vcxproj">
+      <Project>{0D147637-03FB-3DDB-B69C-2CC1587E57AB}</Project>
+      <Name>opencv_test_core_FP16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_test_core_SSE2.vcxproj">
+      <Project>{5576A1EB-4926-3126-AF42-11B251BD0E5D}</Project>
+      <Name>opencv_test_core_SSE2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_test_core_SSE3.vcxproj">
+      <Project>{431E18E8-8AF2-39F3-8117-AD0E69FD11B5}</Project>
+      <Name>opencv_test_core_SSE3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_test_core_SSE4_1.vcxproj">
+      <Project>{A6A1B7FA-B889-359D-9C1B-B3AB92F2808F}</Project>
+      <Name>opencv_test_core_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\core\opencv_test_core_SSE4_2.vcxproj">
+      <Project>{87B5B964-7256-35FF-A984-533CFC010A5C}</Project>
+      <Name>opencv_test_core_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\dnn\opencv_test_dnn.vcxproj">
+      <Project>{464CD0E4-35A6-3A37-83BB-CD7910418DDB}</Project>
+      <Name>opencv_test_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\features2d\opencv_test_features2d.vcxproj">
+      <Project>{44570015-2C51-3AE6-8F29-EDF4F5CA6FE4}</Project>
+      <Name>opencv_test_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\flann\opencv_test_flann.vcxproj">
+      <Project>{963A976F-B964-378B-958A-367269A9F78B}</Project>
+      <Name>opencv_test_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\gapi\opencv_test_gapi.vcxproj">
+      <Project>{15E9AC29-0104-3B7C-8FC1-22101E9B2AF2}</Project>
+      <Name>opencv_test_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\highgui\opencv_test_highgui.vcxproj">
+      <Project>{57C60CDA-E605-3377-8751-C8EAB6542FD9}</Project>
+      <Name>opencv_test_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\imgcodecs\opencv_test_imgcodecs.vcxproj">
+      <Project>{33BAF1E8-A18A-30AD-BDFD-D09FADF41F53}</Project>
+      <Name>opencv_test_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\imgproc\opencv_test_imgproc.vcxproj">
+      <Project>{D58BD61E-4F88-3748-A88E-D1450FD15313}</Project>
+      <Name>opencv_test_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\ml\opencv_test_ml.vcxproj">
+      <Project>{ED1D57A4-651D-3F57-ABF3-C4148FEF9B96}</Project>
+      <Name>opencv_test_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\objdetect\opencv_test_objdetect.vcxproj">
+      <Project>{D8772C20-D1A8-3D1C-97D3-6E3DA68F17E4}</Project>
+      <Name>opencv_test_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\photo\opencv_test_photo.vcxproj">
+      <Project>{9DC3EC8D-29F2-3B27-ACF1-77BB9DEF687D}</Project>
+      <Name>opencv_test_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\stitching\opencv_test_stitching.vcxproj">
+      <Project>{B2372360-F3E7-375C-AA5B-17ADBE2D8392}</Project>
+      <Name>opencv_test_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\video\opencv_test_video.vcxproj">
+      <Project>{B7AA2B01-55A9-37C0-8A78-94B0768D941F}</Project>
+      <Name>opencv_test_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\videoio\opencv_test_videoio.vcxproj">
+      <Project>{F115E95F-7229-32E1-A638-7103ADF32DAA}</Project>
+      <Name>opencv_test_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\ts\opencv_ts.vcxproj">
+      <Project>{564B1E19-56C9-3C03-A035-E04B65880CFF}</Project>
+      <Name>opencv_ts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\apps\version\opencv_version.vcxproj">
+      <Project>{A9D86469-D587-30F7-BEEA-8D2D2D511A53}</Project>
+      <Name>opencv_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\apps\version\opencv_version_win32.vcxproj">
+      <Project>{4AB3956A-EEE4-3256-AAB2-B19CAD4DEA22}</Project>
+      <Name>opencv_version_win32</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\video\opencv_video.vcxproj">
+      <Project>{23C8C9C2-F891-341E-926D-A309F8DF9089}</Project>
+      <Name>opencv_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{3354065D-ADB1-38DC-87AE-CEF49F1BE5A5}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
+      <Project>{282E4878-1895-350B-AA28-F140402DBC55}</Project>
+      <Name>opencv_videoio_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\opencv-4.12.0\apps\visualisation\opencv_visualisation.vcxproj">
+      <Project>{B5E4A6D7-EBBA-3C85-8345-0C525B09BF46}</Project>
+      <Name>opencv_visualisation</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\sunny\Desktop\isrpo\lab_cmake\_build_lib\lib\sample_lib\sample_lib.vcxproj">
       <Project>{D8B1161D-E562-3B83-8676-F9E7E015E92A}</Project>
       <Name>sample_lib</Name>

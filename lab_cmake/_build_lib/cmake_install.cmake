@@ -42,6 +42,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/lib/sample_program/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/sunny/Desktop/isrpo/lab_cmake/_build_lib/opencv-4.12.0/cmake_install.cmake")
+endif()
+
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)

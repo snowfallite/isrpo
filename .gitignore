@@ -1,2 +1,3 @@
 .env
-*.doc
+lab_cmake/_build_lib*
+lab_cmake/opencv-4.12.0*
