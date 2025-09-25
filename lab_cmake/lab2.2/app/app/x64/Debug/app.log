@@ -1,0 +1,22 @@
+﻿  app.cpp
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(28,68): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(28,68): warning C4244:         with
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(28,68): warning C4244:         [
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(28,68): warning C4244:             _Tp=int
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(28,68): warning C4244:         ]
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(28,33): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(28,33): warning C4244:         with
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(28,33): warning C4244:         [
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(28,33): warning C4244:             _Tp=int
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(28,33): warning C4244:         ]
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(29,75): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(29,75): warning C4244:         with
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(29,75): warning C4244:         [
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(29,75): warning C4244:             _Tp=int
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(29,75): warning C4244:         ]
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(29,52): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(29,52): warning C4244:         with
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(29,52): warning C4244:         [
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(29,52): warning C4244:             _Tp=int
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\app\app.cpp(29,52): warning C4244:         ]
+  app.vcxproj -> C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.2\app\x64\Debug\app.exe

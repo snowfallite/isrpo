@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtyomLib", "ArtyomLib\ArtyomLib.csproj", "{87E8C837-A061-4C24-A7FA-EAA8EF23B51D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87E8C837-A061-4C24-A7FA-EAA8EF23B51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E8C837-A061-4C24-A7FA-EAA8EF23B51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E8C837-A061-4C24-A7FA-EAA8EF23B51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E8C837-A061-4C24-A7FA-EAA8EF23B51D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BF337C7-1D52-41B7-8C95-DFC3FEFA79D1}
+	EndGlobalSection
+EndGlobal

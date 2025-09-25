@@ -1,0 +1,12 @@
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\bin\Debug\net8.0\ArtyomLib.deps.json
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\bin\Debug\net8.0\ArtyomLib.dll
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\bin\Debug\net8.0\ArtyomLib.pdb
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\obj\Debug\net8.0\ArtyomLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\obj\Debug\net8.0\ArtyomLib.AssemblyInfoInputs.cache
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\obj\Debug\net8.0\ArtyomLib.AssemblyInfo.cs
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\obj\Debug\net8.0\ArtyomLib.csproj.CoreCompileInputs.cache
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\obj\Debug\net8.0\ArtyomLib.sourcelink.json
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\obj\Debug\net8.0\ArtyomLib.dll
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\obj\Debug\net8.0\refint\ArtyomLib.dll
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\obj\Debug\net8.0\ArtyomLib.pdb
+C:\Users\sunny\Desktop\college\isrpo\lab_cmake\lab2.3\ArtyomLib\ArtyomLib\obj\Debug\net8.0\ref\ArtyomLib.dll
