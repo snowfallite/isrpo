@@ -1,0 +1,10 @@
+^C:\USERS\ROOT\DESKTOP\COLLEGE\ISRPO\LAB_CMAKE\LAB2.4\_BUILD\CMAKEFILES\42FC6B49FF74F42C537917BA5C9D75CB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/root/Desktop/college/isrpo/lab_cmake/lab2.4 -BC:/Users/root/Desktop/college/isrpo/lab_cmake/lab2.4/_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/root/Desktop/college/isrpo/lab_cmake/lab2.4/_build/lastTwo.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

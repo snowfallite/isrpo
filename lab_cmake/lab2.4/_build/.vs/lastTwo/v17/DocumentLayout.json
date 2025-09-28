@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\root\\Desktop\\college\\isrpo\\lab_cmake\\lab2.4\\_build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C92EA9-736F-37C5-920B-E1ACDF918DF1}|main.vcxproj|C:\\Users\\root\\Desktop\\college\\isrpo\\lab_cmake\\lab2.4\\program\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\college\\isrpo\\lab_cmake\\lab2.4\\program\\main.cpp",
+              "RelativeDocumentMoniker": "..\\program\\main.cpp",
+              "ToolTip": "C:\\Users\\root\\Desktop\\college\\isrpo\\lab_cmake\\lab2.4\\program\\main.cpp",
+              "RelativeToolTip": "..\\program\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-28T12:23:00.103Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
