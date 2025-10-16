@@ -1,0 +1,30 @@
+cmake_minimum_required(VERSION 4.1)
+project(ArithmeticInCMake)
+
+set(A "10" CACHE STRING "Первое целое число (A)")
+set(B "3"  CACHE STRING "Второе целое число (B)")
+
+math(EXPR A_int    "${A}")
+math(EXPR B_int    "${B}")
+
+math(EXPR SUM      "${A_int} + ${B_int}")
+math(EXPR DIFF     "${A_int} - ${B_int}")
+math(EXPR PRODUCT  "${A_int} * ${B_int}")
+
+
+if (B_int STREQUAL "0")
+  set(QUOTIENT "UNDEFINED_DIV_BY_ZERO")
+else()
+  math(EXPR QUOTIENT "${A_int} / ${B_int}") 
+endif()
+
+set(RESULT_SUM     "${SUM}"     CACHE STRING "A + B (integer)")
+set(RESULT_DIFF    "${DIFF}"    CACHE STRING "A - B (integer)")
+set(RESULT_PRODUCT "${PRODUCT}" CACHE STRING "A * B (integer)")
+set(RESULT_QUOT    "${QUOTIENT}" CACHE STRING "A / B (integer, truncated)")
+
+message(STATUS "A = ${A_int}, B = ${B_int}")
+message(STATUS "A + B = ${SUM}")
+message(STATUS "A - B = ${DIFF}")
+message(STATUS "A * B = ${PRODUCT}")
+message(STATUS "A / B = ${QUOTIENT}")

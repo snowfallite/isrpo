@@ -1,1 +1,0 @@
-add_library(libOne libOne.cpp libOne.h)

@@ -1,5 +1,0 @@
-.env
-lab_cmake/lab2.1/_build/*
-lab_cmake/lab2.2/.vscode/*
-lab_cmake/lab2.2/_build/*
-lab_cmake/lab2.2/opencv-4.12.0/*
