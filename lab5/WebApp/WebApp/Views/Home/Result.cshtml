@@ -1,0 +1,13 @@
+﻿@model DrinksApp.Models.Drink
+@{
+    ViewBag.Title = "Результат выбора";
+}
+
+<h2>Результат выбора напитка</h2>
+
+<p><strong>Тип напитка:</strong> @Model.DrinkType</p>
+<p><strong>Количество молока:</strong> @Model.Milk</p>
+<p><strong>Количество сахара:</strong> @Model.Sugar</p>
+<p><strong>Стоимость:</strong> @Model.Price руб.</p>
+
+<a href="@Url.Action("DrinkForm", "Home")">Назад</a>
