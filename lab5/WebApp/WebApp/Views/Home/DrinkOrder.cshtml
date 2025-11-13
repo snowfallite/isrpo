@@ -1,0 +1,46 @@
+﻿@model DrinksApp.Models.Drink
+
+<h2>Заказ напитка</h2>
+
+@using (Html.BeginForm("OrderForm", "Home", FormMethod.Post))
+{
+    <div class="mb-3">
+        <label for="DrinkType">Тип напитка:</label>
+        @Html.DropDownListFor(m => m.DrinkType,
+        new SelectList(new[] { "Tea", "Coffee", "Juice", "Alcohol" }),
+        "Выберите напиток",
+        new { @class = "form-select" })
+    @Html.ValidationMessageFor(m => m.DrinkType)
+</div>
+
+<div class="mb-3">
+    <label for="Milk">Молоко:</label>
+    @Html.TextBoxFor(m => m.Milk, new { type = "number", step = "1", min = "0", max = "10", @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.Milk)
+</div>
+
+<div class="mb-3">
+    <label for="Sugar">Сахар:</label>
+    @Html.TextBoxFor(m => m.Sugar, new { type = "number", step = "1", min = "0", max = "10", @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.Sugar)
+</div>
+
+<button type="submit" class="btn btn-success">ОК</button>
+<a href="/Home/Index" class="btn btn-secondary">Назад</a>
+}
+
+@if (Model != null && ViewBag.Success == true)
+{
+    <div class="alert alert-success mt-3">
+        ✅ Заказ успешно отправлен!
+        <p>Напиток: @Model.DrinkType</p>
+        <p>Молоко: @Model.Milk</p>
+        <p>Сахар: @Model.Sugar</p>
+    </div>
+}
+else if (ViewBag.Success == false)
+{
+    <div class="alert alert-danger mt-3">
+        ❌ Ошибка при вводе данных. Проверьте молоко и сахар.
+    </div>
+}

@@ -1,9 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DrinksApp.Models
 {
     public class Drink
     {
+        [Key]
+        public int Id { get; set; }
+
         [Required(ErrorMessage = "Выберите тип напитка")]
         [Display(Name = "Drink Type")]
         public string DrinkType { get; set; }
@@ -18,8 +22,10 @@ namespace DrinksApp.Models
         [Display(Name = "Sugar")]
         public int Sugar { get; set; }
 
-
+        [Required(ErrorMessage = "Введите цену")]
+        [Column(TypeName = "decimal(18,2)")]
+        [Range(1, 10000, ErrorMessage = "Цена должна быть от 1 до 10000 руб.")]
         [Display(Name = "Цена (руб.)")]
-        public decimal Price { get; set; }  // Добавили цену
+        public decimal Price { get; set; }
     }
 }

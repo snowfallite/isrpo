@@ -1,53 +1,90 @@
-
 using DrinksApp.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using WebApp.Models;
 
 namespace DrinksApp.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: /Home/DrinkForm
-        [HttpGet]
-        public ActionResult DrinkForm()
+        private readonly AppDbContext _context;
+
+        public HomeController(AppDbContext context)
         {
-            ViewBag.Drinks = new SelectList(new[] { "Tea", "Coffee", "Juice", "Alcohol" });
-            return View();
+            _context = context;
         }
 
-        // POST: /Home/DrinkForm
-        [HttpPost]
-        public ActionResult DrinkForm(Drink model)
+        // GET: список напитков
+        public async Task<IActionResult> Index()
         {
-            ViewBag.Drinks = new SelectList(new[] { "Tea", "Coffee", "Juice", "Alcohol" });
+            var drinks = await _context.Drinks.ToListAsync();
+            return View(drinks);
+        }
+
+        // Добавление напитка
+        [HttpPost]
+        public async Task<IActionResult> AddDrink([FromBody] Drink drink)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Drinks.Add(drink);
+                await _context.SaveChangesAsync();
+                var drinksList = await _context.Drinks.ToListAsync();
+                return Json(drinksList);
+            }
+            return BadRequest();
+        }
+
+        // Удаление напитка
+        [HttpPost]
+        public async Task<IActionResult> DeleteDrink(int id)
+        {
+            var drink = await _context.Drinks.FindAsync(id);
+            if (drink != null)
+            {
+                _context.Drinks.Remove(drink);
+                await _context.SaveChangesAsync();
+            }
+            var drinksList = await _context.Drinks.ToListAsync();
+            return Json(drinksList);
+        }
+
+        // Редактирование напитка
+        [HttpPost]
+        public async Task<IActionResult> EditDrink(int id, [FromBody] Drink drink)
+        {
+            if (id != drink.Id) return NotFound();
 
             if (ModelState.IsValid)
             {
-                // Определяем цену напитка
-                switch (model.DrinkType)
-                {
-                    case "Tea":
-                        model.Price = 50;
-                        break;
-                    case "Coffee":
-                        model.Price = 80;
-                        break;
-                    case "Juice":
-                        model.Price = 60;
-                        break;
-                    case "Alcohol":
-                        model.Price = 150;
-                        break;
-                    default:
-                        model.Price = 0;
-                        break;
-                }
+                _context.Update(drink);
+                await _context.SaveChangesAsync();
+            }
+            var drinksList = await _context.Drinks.ToListAsync();
+            return Json(drinksList);
+        }
 
-                ViewBag.Message = $"Вы выбрали {model.DrinkType} с {model.Milk} мл молока и {model.Sugar} ложками сахара.";
-                return View("Result", model);
+        // Поиск напитков
+        [HttpGet]
+        public JsonResult Search(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                var all = _context.Drinks
+                    .Select(d => new { d.Id, d.DrinkType, d.Milk, d.Sugar, d.Price })
+                    .ToList();
+                return Json(all);
             }
 
-            return View(model);
+            var results = _context.Drinks
+                .Where(d => d.DrinkType.Contains(query)
+                         || d.Sugar.ToString().Contains(query)
+                         || d.Milk.ToString().Contains(query)
+                         || d.Price.ToString().Contains(query))
+                .Select(d => new { d.Id, d.DrinkType, d.Milk, d.Sugar, d.Price })
+                .ToList();
+
+            return Json(results);
         }
     }
 }

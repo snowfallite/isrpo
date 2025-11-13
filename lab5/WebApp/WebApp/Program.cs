@@ -1,10 +1,17 @@
-﻿namespace WebApp
+﻿using System;
+using Microsoft.EntityFrameworkCore;
+using WebApp.Models;
+
+namespace WebApp
 {
     public class Program
     {
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<AppDbContext>(options =>
+               options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -28,7 +35,7 @@
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=DrinkForm}/{id?}");
+                pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
         }

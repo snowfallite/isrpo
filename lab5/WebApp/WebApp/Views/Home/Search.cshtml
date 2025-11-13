@@ -1,0 +1,18 @@
+﻿<input type="text" id="searchBox" placeholder="Введите напиток..." />
+<div id="results"></div>
+
+<script>
+    async function loadResults(query = "") {
+        const response = await fetch(`/Home/Search?query=${query}`);
+        const data = await response.json();
+        let html = "<ul>";
+        data.forEach(item => {
+            html += `<li>${item.DrinkType} - ${item.Price} руб.</li>`;
+        });
+        html += "</ul>";
+        document.getElementById("results").innerHTML = html;
+    }
+
+    document.getElementById("searchBox").addEventListener("input", e => loadResults(e.target.value));
+    loadResults();  // Загружаем все напитки сразу
+</script>

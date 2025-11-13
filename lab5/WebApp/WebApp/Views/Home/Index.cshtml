@@ -1,0 +1,192 @@
+﻿@model IEnumerable<DrinksApp.Models.Drink>
+
+<h2>Drinks List</h2>
+
+<div class="mb-3">
+    <button id="addDrinkBtn" class="btn btn-success">Add Drink</button>
+    <button id="editDrinkBtn" class="btn btn-primary">Edit Drink</button>
+    <button id="deleteDrinkBtn" class="btn btn-danger">Delete Drink</button>
+</div>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="drinkModal" tabindex="-1" aria-labelledby="drinkModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="drinkModalLabel">Drink Form</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="drinkForm">
+                    <input type="hidden" id="drinkId" />
+                    <div class="mb-3">
+                        <label for="drinkType" class="form-label">Drink Type</label>
+                        <select id="drinkType" class="form-select" required>
+                            <option value="">Выберите напиток</option>
+                            <option>Tea</option>
+                            <option>Coffee</option>
+                            <option>Juice</option>
+                            <option>Alcohol</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="milk" class="form-label">Milk (ml)</label>
+                        <input type="number" class="form-control" id="milk" required min="0" max="10" step="1" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="sugar" class="form-label">Sugar (spoons)</label>
+                        <input type="number" class="form-control" id="sugar" required min="0" max="10" step="1" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Price (руб.)</label>
+                        <input type="number" class="form-control" id="price" required min="1" max="10000" step="1" />
+                    </div>
+                    <button type="submit" class="btn btn-success">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Поле поиска -->
+<div class="mb-3">
+    <input type="text" id="searchBox" placeholder="Search drinks..." class="form-control" />
+</div>
+
+<!-- Список напитков -->
+<div id="drinkList">
+    @foreach (var drink in Model)
+    {
+        <div class="drink-item"
+             data-id="@drink.Id"
+             data-drinktype="@drink.DrinkType"
+             data-milk="@drink.Milk"
+             data-sugar="@drink.Sugar"
+             data-price="@drink.Price">
+            <h3>@drink.DrinkType</h3>
+            <p>@drink.Milk ml of milk</p>
+            <p>@drink.Sugar spoons of sugar</p>
+            <p>@drink.Price руб.</p>
+        </div>
+    }
+</div>
+
+<style>
+    .drink-item {
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+
+        .drink-item.selected {
+            background-color: #d0f0d0;
+            border: 2px solid green;
+        }
+</style>
+
+<script>
+    // Выделение напитка
+    document.getElementById('drinkList').addEventListener('click', function (e) {
+        const drinkItem = e.target.closest('.drink-item');
+        if (drinkItem) {
+            document.querySelectorAll('.drink-item').forEach(el => el.classList.remove('selected'));
+            drinkItem.classList.add('selected');
+        }
+    });
+
+    // Открытие модала для добавления
+    document.getElementById('addDrinkBtn').addEventListener('click', function () {
+        document.getElementById('drinkForm').reset();
+        document.getElementById('drinkId').value = "";
+        document.getElementById('drinkModalLabel').innerText = "Add Drink";
+        new bootstrap.Modal(document.getElementById('drinkModal')).show();
+    });
+
+    // Открытие модала для редактирования
+      document.getElementById('editDrinkBtn').addEventListener('click', function () {
+        const selected = document.querySelector('.drink-item.selected');
+        if (!selected) { alert("Select a drink to edit."); return; }
+
+        const priceRaw = selected.dataset.price ?? ""; // строка из data-price
+        const priceNormalized = priceRaw.toString().replace(',', '.'); // на случай локали с запятой
+
+        document.getElementById('drinkId').value = selected.dataset.id;
+        document.getElementById('drinkType').value = selected.dataset.drinktype;
+        document.getElementById('milk').value = selected.dataset.milk;
+        document.getElementById('sugar').value = selected.dataset.sugar;
+        document.getElementById('price').value = priceNormalized;
+
+        document.getElementById('drinkModalLabel').innerText = "Edit Drink";
+        new bootstrap.Modal(document.getElementById('drinkModal')).show();
+    });
+
+    // Удаление напитка
+    document.getElementById('deleteDrinkBtn').addEventListener('click', function () {
+        const selected = document.querySelector('.drink-item.selected');
+        if (!selected) { alert("Select a drink to delete."); return; }
+
+        const id = selected.dataset.id;
+        fetch(`/Home/DeleteDrink?id=${id}`, { method: 'POST' })
+            .then(response => response.json())
+            .then(updateDrinkList);
+    });
+
+    // Обработка формы добавления/редактирования
+      document.getElementById('drinkForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const id = document.getElementById('drinkId').value;
+        const priceInput = document.getElementById('price').value.trim().replace(',', '.');
+
+        const drink = {
+            Id: id ? parseInt(id) : 0,
+            DrinkType: document.getElementById('drinkType').value,
+            Milk: parseInt(document.getElementById('milk').value),
+            Sugar: parseInt(document.getElementById('sugar').value),
+            Price: parseFloat(document.getElementById('price').value)
+        };
+
+        const url = id ? `/Home/EditDrink/${id}` : '/Home/AddDrink';
+        fetch(url, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(drink)
+        })
+        .then(response => response.json())
+        .then(updateDrinkList);
+
+        bootstrap.Modal.getInstance(document.getElementById('drinkModal')).hide();
+    });
+
+    // Поиск с автообновлением
+    document.getElementById("searchBox").addEventListener("input", function () {
+        const query = this.value;
+        fetch(`/Home/Search?query=${query}`)
+            .then(response => response.json())
+            .then(updateDrinkList);
+    });
+
+    // Функция обновления списка
+            function updateDrinkList(data) {
+        const drinkListDiv = document.getElementById("drinkList");
+        drinkListDiv.innerHTML = "";
+        data.forEach(drink => {
+            const div = document.createElement("div");
+            div.classList.add("drink-item");
+            div.setAttribute("data-id", drink.id);
+            div.setAttribute("data-drinktype", drink.drinkType);
+            div.setAttribute("data-milk", drink.milk);
+            div.setAttribute("data-sugar", drink.sugar);
+            div.setAttribute("data-price", drink.price);
+
+            div.innerHTML = `
+                <h3>${drink.drinkType}</h3>
+                <p>${drink.milk} ml of milk</p>
+                <p>${drink.sugar} spoons of sugar</p>
+                <p>${drink.price} руб.</p>
+            `;
+            drinkListDiv.appendChild(div);
+        });
+    }
+</script>
