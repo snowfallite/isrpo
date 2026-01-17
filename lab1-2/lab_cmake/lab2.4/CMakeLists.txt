@@ -1,4 +1,5 @@
 <<<<<<< HEAD:lab1-2/lab_cmake/lab2.4/CMakeLists.txt
+<<<<<<< HEAD:lab1-2/lab_cmake/lab2.4/CMakeLists.txt
 cmake_minimum_required(VERSION 3.10)
 project(Lab24 CXX)
 
@@ -33,6 +34,8 @@ endif()
 configure_file(config.h.in config.h)
 target_include_directories(main PRIVATE ${CMAKE_BINARY_DIR})
 =======
+=======
+>>>>>>> 04498137eb724510bf4f5f9f714dcfd458dbe926:lab_cmake/lab2.4/CMakeLists.txt
 cmake_minimum_required(VERSION 4.1)
 project(lastTwo)
 set(BUILD_SHARED_LIBS FALSE)
@@ -74,5 +77,9 @@ if (USE_LIB2)
 endif()
 if (USE_LIB3)
     target_link_libraries(main PRIVATE libThree)
+<<<<<<< HEAD:lab1-2/lab_cmake/lab2.4/CMakeLists.txt
+endif()
+>>>>>>> 04498137eb724510bf4f5f9f714dcfd458dbe926:lab_cmake/lab2.4/CMakeLists.txt
+=======
 endif()
 >>>>>>> 04498137eb724510bf4f5f9f714dcfd458dbe926:lab_cmake/lab2.4/CMakeLists.txt
