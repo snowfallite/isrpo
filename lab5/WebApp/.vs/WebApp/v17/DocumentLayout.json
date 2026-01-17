@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab5\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab5\\webapp\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab5\\webapp\\webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab5\\webapp\\webapp\\models\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab5\\webapp\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab5\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab5\\webapp\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab5\\webapp\\webapp\\models\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C14641CE-204A-4A7C-B503-D3C4015825ED}|WebApp\\WebApp.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab5\\webapp\\webapp\\views\\home\\drinkorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Drink.cs",
               "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab5\\WebApp\\WebApp\\Models\\Drink.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\Drink.cs",
-              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab5\\WebApp\\WebApp\\Models\\Drink.cs",
-              "RelativeToolTip": "WebApp\\Models\\Drink.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAowBAAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab5\\WebApp\\WebApp\\Models\\Drink.cs*",
+              "RelativeToolTip": "WebApp\\Models\\Drink.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T14:24:21.109Z",
               "IsPinned": true,
@@ -60,20 +60,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab5\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab5\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-13T17:34:50.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab5\\WebApp\\WebApp\\Program.cs",
               "RelativeDocumentMoniker": "WebApp\\Program.cs",
@@ -81,18 +81,17 @@
               "RelativeToolTip": "WebApp\\Program.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T17:31:42.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T17:31:42.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab5\\WebApp\\WebApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab5\\WebApp\\WebApp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WebApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAALYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAALYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-13T07:06:40.904Z",
               "EditorCaption": ""
@@ -119,8 +118,7 @@
               "RelativeToolTip": "WebApp\\Views\\Home\\DrinkOrder.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T17:44:11.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T17:44:11.277Z"
             },
             {
               "$type": "Document",
@@ -136,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab5\\WebApp\\WebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\HomeController.cs",
@@ -144,8 +142,7 @@
               "RelativeToolTip": "WebApp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAowEMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:41:06.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T17:41:06.13Z"
             }
           ]
         }

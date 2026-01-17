@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CruiseCompany</string>
+    <!-- Point to your ASP.NET API base URL -->
+    <string name="base_url">http://10.0.2.2:5129/</string>
+</resources>

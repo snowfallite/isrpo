@@ -1,0 +1,7 @@
+@TripAPI_HostAddress = http://localhost:5129
+
+GET {{TripAPI_HostAddress}}/swagger/
+Accept: application/json
+
+###
+

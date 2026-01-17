@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Ввод ID маршрута -->
+    <EditText
+        android:id="@+id/edtRouteId"
+        android:hint="Route ID"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Кнопка загрузки связей -->
+    <Button
+        android:id="@+id/btnLoadLinks"
+        android:text="Show linked liners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Список связей -->
+    <TextView
+        android:id="@+id/txtLinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"/>
+</LinearLayout>

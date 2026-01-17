@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\wwwroot\\js\\figures.js||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\wwwroot\\js\\figures.js||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\views\\home\\figures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\views\\home\\figures.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\wwwroot\\js\\figures.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\wwwroot\\js\\figures.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\models\\sceneobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\models\\sceneobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\controllers\\sceneobjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\controllers\\sceneobjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\wwwroot\\js\\sceneapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\wwwroot\\js\\sceneapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\lab0\\webappjs\\webappjs\\wwwroot\\js\\point.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\wwwroot\\js\\point.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 325,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SceneObject.cs",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Models\\SceneObject.cs",
+              "RelativeDocumentMoniker": "WebAppJS\\Models\\SceneObject.cs",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Models\\SceneObject.cs",
+              "RelativeToolTip": "WebAppJS\\Models\\SceneObject.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:28:20.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SceneObjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Controllers\\SceneObjectsController.cs",
+              "RelativeDocumentMoniker": "WebAppJS\\Controllers\\SceneObjectsController.cs",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Controllers\\SceneObjectsController.cs",
+              "RelativeToolTip": "WebAppJS\\Controllers\\SceneObjectsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:23:43.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "figures.js",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\wwwroot\\js\\figures.js",
+              "RelativeDocumentMoniker": "WebAppJS\\wwwroot\\js\\figures.js",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\wwwroot\\js\\figures.js",
+              "RelativeToolTip": "WebAppJS\\wwwroot\\js\\figures.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-17T11:46:56.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "sceneApi.js",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\wwwroot\\js\\sceneApi.js",
+              "RelativeDocumentMoniker": "WebAppJS\\wwwroot\\js\\sceneApi.js",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\wwwroot\\js\\sceneApi.js",
+              "RelativeToolTip": "WebAppJS\\wwwroot\\js\\sceneApi.js",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAtwBQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-17T11:43:30.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "figures.js",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\wwwroot\\js\\figures.js",
+              "RelativeDocumentMoniker": "WebAppJS\\wwwroot\\js\\figures.js",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\wwwroot\\js\\figures.js",
+              "RelativeToolTip": "WebAppJS\\wwwroot\\js\\figures.js",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAwwI4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-17T11:29:11.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Figures.cshtml",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Views\\Home\\Figures.cshtml",
+              "RelativeDocumentMoniker": "WebAppJS\\Views\\Home\\Figures.cshtml",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Views\\Home\\Figures.cshtml",
+              "RelativeToolTip": "WebAppJS\\Views\\Home\\Figures.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-17T11:28:30.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebAppJS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebAppJS\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T11:27:14.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebAppJS\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebAppJS\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T11:17:43.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Program.cs",
+              "RelativeDocumentMoniker": "WebAppJS\\Program.cs",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Program.cs",
+              "RelativeToolTip": "WebAppJS\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T11:15:59.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAppJS\\appsettings.json",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\appsettings.json",
+              "RelativeToolTip": "WebAppJS\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-17T11:05:40.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebAppJS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebAppJS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T08:41:27.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppJS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebAppJS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-16T09:45:24.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Point.js",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\wwwroot\\js\\Point.js",
+              "RelativeDocumentMoniker": "WebAppJS\\wwwroot\\js\\Point.js",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\wwwroot\\js\\Point.js",
+              "RelativeToolTip": "WebAppJS\\wwwroot\\js\\Point.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-16T09:10:01.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebAppJS\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebAppJS\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T08:41:06.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "WebAppJS\\wwwroot\\js\\main.js",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\lab0\\WebAppJS\\WebAppJS\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "WebAppJS\\wwwroot\\js\\main.js",
+              "ViewState": "AgIAALUAAAAAAAAAAAAwwL8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-14T08:40:00.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+
+	<script>
+		function compare(a,b) {
+			if (isNaN(a)) {
+				console.log('a is not a number');
+			} else if (isNaN(b)) {
+				console.log('b is not a number');
+			} else if (a < b) {
+				console.log('a is less than b');
+			} else if (a==b) {
+				console.log('a equals b');
+			} else {
+				console.log('a is greater than b');
+			}
+		}
+
+		const planets =["Mercury", "Venus", "Earth", 
+		      "Mars", "Jupiter", "Saturn", "Uranus"];
+		planets.push("Neptune");
+		
+		console.log("There are " + planets.length + " planets in our Solar System");
+		console.log("Our planet is " + planets[2]);
+		
+		planets.push("Pluto");
+		planets.splice(1,1)
+		console.log(planets)
+
+	</script>
+
+</body>
+</html>
