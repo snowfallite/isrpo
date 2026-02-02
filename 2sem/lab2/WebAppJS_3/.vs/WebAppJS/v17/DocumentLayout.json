@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\2sem\\lab2\\webappjs_3\\webappjs\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\2sem\\lab2\\webappjs_3\\webappjs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\2sem\\lab2\\webappjs_3\\webappjs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\2sem\\lab2\\webappjs_3\\webappjs\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\2sem\\lab2\\webappjs_3\\webappjs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|c:\\users\\sunny\\desktop\\college\\isrpo\\2sem\\lab2\\webappjs_3\\webappjs\\wwwroot\\js\\point.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{45C0621E-E52B-4B71-8668-A86F39E39E47}|WebAppJS\\WebAppJS.csproj|solutionrelative:webappjs\\wwwroot\\js\\point.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 325,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebAppJS\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebAppJS\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T17:42:27.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "WebAppJS\\wwwroot\\js\\main.js",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "WebAppJS\\wwwroot\\js\\main.js",
+              "ViewState": "AgIAADIAAAAAAAAAAAAYwFkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-14T08:40:00.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebAppJS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebAppJS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-20T18:54:19.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\Program.cs",
+              "RelativeDocumentMoniker": "WebAppJS\\Program.cs",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\Program.cs",
+              "RelativeToolTip": "WebAppJS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T18:41:50.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppJS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebAppJS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-16T09:45:24.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Point.js",
+              "DocumentMoniker": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\wwwroot\\js\\Point.js",
+              "RelativeDocumentMoniker": "WebAppJS\\wwwroot\\js\\Point.js",
+              "ToolTip": "C:\\Users\\sunny\\Desktop\\college\\isrpo\\2sem\\lab2\\WebAppJS_3\\WebAppJS\\wwwroot\\js\\Point.js",
+              "RelativeToolTip": "WebAppJS\\wwwroot\\js\\Point.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-16T09:10:01.881Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Фигуры";
+}
+
+<h3>Добавление фигур</h3>
+
+<form id="addForm">
+    <select id="type">
+        <option value="Box">Параллелепипед</option>
+        <option value="Sphere">Сфера</option>
+        <option value="Tetrahedron">Тетраэдр</option>
+    </select>
+
+    <input id="a" placeholder="A (ширина / радиус)" />
+    <input id="b" placeholder="B (высота / сегменты)" />
+    <input id="c" placeholder="C (глубина / сегменты)" />
+
+    <input id="x" placeholder="X" />
+    <input id="y" placeholder="Y" />
+    <input id="z" placeholder="Z" />
+
+    <button type="submit">Добавить</button>
+</form>
+
+<div id="Figures-output" class="w-100 vh-100 border"></div>
+
+<script type="module" src="/js/figures.js"></script>

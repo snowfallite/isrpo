@@ -1,0 +1,15 @@
+C:\Users\sunny\Desktop\college\isrpo\lab0\consoleapp\consoleapp\bin\Debug\consoleapp.exe.config
+C:\Users\sunny\Desktop\college\isrpo\lab0\consoleapp\consoleapp\bin\Debug\consoleapp.exe
+C:\Users\sunny\Desktop\college\isrpo\lab0\consoleapp\consoleapp\bin\Debug\consoleapp.pdb
+C:\Users\sunny\Desktop\college\isrpo\lab0\consoleapp\consoleapp\obj\Debug\consoleapp.csproj.AssemblyReference.cache
+C:\Users\sunny\Desktop\college\isrpo\lab0\consoleapp\consoleapp\obj\Debug\consoleapp.csproj.CoreCompileInputs.cache
+C:\Users\sunny\Desktop\college\isrpo\lab0\consoleapp\consoleapp\obj\Debug\consoleapp.exe
+C:\Users\sunny\Desktop\college\isrpo\lab0\consoleapp\consoleapp\obj\Debug\consoleapp.pdb
+C:\Users\sunny\Desktop\college\isrpo\2sem\lab8\consoleapp\consoleapp\bin\Debug\consoleapp.exe.config
+C:\Users\sunny\Desktop\college\isrpo\2sem\lab8\consoleapp\consoleapp\bin\Debug\consoleapp.exe
+C:\Users\sunny\Desktop\college\isrpo\2sem\lab8\consoleapp\consoleapp\bin\Debug\consoleapp.pdb
+C:\Users\sunny\Desktop\college\isrpo\2sem\lab8\consoleapp\consoleapp\obj\Debug\consoleapp.csproj.AssemblyReference.cache
+C:\Users\sunny\Desktop\college\isrpo\2sem\lab8\consoleapp\consoleapp\obj\Debug\consoleapp.exe.config
+C:\Users\sunny\Desktop\college\isrpo\2sem\lab8\consoleapp\consoleapp\obj\Debug\consoleapp.csproj.CoreCompileInputs.cache
+C:\Users\sunny\Desktop\college\isrpo\2sem\lab8\consoleapp\consoleapp\obj\Debug\consoleapp.exe
+C:\Users\sunny\Desktop\college\isrpo\2sem\lab8\consoleapp\consoleapp\obj\Debug\consoleapp.pdb

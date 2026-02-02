@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "WebAppJS.Controllers.SceneObjectsController",
+    "Method": "GetAll",
+    "RelativePath": "api/scene",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppJS.Controllers.SceneObjectsController",
+    "Method": "Create",
+    "RelativePath": "api/scene",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "WebAppJS.Models.SceneObject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAppJS.Controllers.SceneObjectsController",
+    "Method": "Delete",
+    "RelativePath": "api/scene/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

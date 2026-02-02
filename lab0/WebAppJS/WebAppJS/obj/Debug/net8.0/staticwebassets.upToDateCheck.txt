@@ -1,6 +1,5 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\js\figures.js
 wwwroot\js\main.js
 wwwroot\js\Point.js
 wwwroot\js\sceneApi.js
@@ -66,3 +65,4 @@ wwwroot\lib\threejs\three.core.js
 wwwroot\lib\threejs\three.core.min.js
 wwwroot\lib\threejs\three.module.js
 wwwroot\lib\threejs\three.module.min.js
+wwwroot\js\figures.js
